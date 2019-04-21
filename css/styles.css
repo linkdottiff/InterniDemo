@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+    background-color: #383735;
+    height: 110vh;
+}
+
+h1,p{
+    color: #fff;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.image-wrapper {
+    margin-top: 50px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.options-wrapper{
+    margin-top: 50px;
+}
+
+.normal-image {
+    width: 80%;
+}
+
+.free-txt{
+    position: absolute; 
+    top: -15%;
+    left: 70%;
+    z-index: 100;
+    font-size: 0.7rem;
+    color: #fff;
+}
+
+.image-ani {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.avfi{
+    width: 88%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.options-image{
+    width: 70%;
+    display: block;
+    margin: 100px auto 0;
+}
+
+.options-image:hover{
+    cursor: pointer;
+}
+
+#option-txt{
+    font-size: 1rem;
+}
+
+
+#topic-name{
+    display: none;
+    margin: 30px auto 0;
+}
+
+#topic-btn{
+    display: none;
+    margin: 10px auto 0;
+}
+
+#next-btn{
+    display: none;
+    margin: 10px auto 0;
+}
+
+#restart-btn{
+    display: none;
+    margin: 10px auto 0;
+}
